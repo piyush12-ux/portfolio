@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Yadav | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#projects">Projects</a>
+            <a href="#links">Links</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Piyush Yadav</span></h1>
+                <p>BCA Student | Full Stack Developer | Problem Solver</p>
+                <a href="#contact" class="btn">Hire Me</a>
+            </div>
+            <img src="images/piyush.jpg" alt="Piyush Yadav" class="hero-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate BCA student with expertise in full-stack development and problem solving. Currently in my 2nd year, I've built multiple projects and solved 200+ LeetCode problems.</p>
+                    <p>My technical skills include HTML, CSS, JavaScript, React, Node.js, and MongoDB. I'm also proficient in Data Structures and Algorithms.</p>
+                    <p>When I'm not coding, you can find me contributing to open-source projects or participating in hackathons.</p>
+                </div>
+                <img src="images/piyush.jpg" alt="About Piyush" class="about-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Certificates Section -->
+    <section id="certificates">
+        <div class="container">
+            <h2 class="section-title">My Certifications & Achievements</h2>
+            <div class="certificates-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="technical">Technical</button>
+                <button class="filter-btn" data-filter="professional">Professional</button>
+                <button class="filter-btn" data-filter="coding">Coding</button>
+            </div>
+            
+            <div class="certificates-container">
+                <!-- Technical Certificates -->
+                <div class="certificate-category" data-category="technical">
+                    <h3><i class="fas fa-code"></i> Technical Certifications</h3>
+                    <div class="certificates-grid">
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Advanced</div>
+                            <div class="certificate-img-container">
+                                <img src="images/cpp.jpg" alt="C++ Certificate" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>C++ Programming</h4>
+                                <p>Skilled in writing efficient, logic-driven C++ code with hands-on experience in STL, algorithms, and real-world problem solving.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">OOP</span>
+                                    <span class="skill-tag">STL</span>
+                                    <span class="skill-tag">Algorithms</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Jun 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Infosys</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Intermediate</div>
+                            <div class="certificate-img-container">
+                                <img src="images/Hackerrank.jpg" alt="Hackerrank Certificate" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Problem Solving</h4>
+                                <p>Mastered complex data structures and algorithms with 150+ coding problems solved during the course. 5-star rating in problem solving.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">DSA</span>
+                                    <span class="skill-tag">Algorithms</span>
+                                    <span class="skill-tag">Logic Building</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Apr 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Hackerrank</span>
+                                    </div>
+                                </div>
+                                <a href="https://www.hackerrank.com/certificates/your-certificate-id" target="_blank" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Intermediate</div>
+                            <div class="certificate-img-container">
+                                <img src="images/html.jpg" alt="HTML Certificate" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>HTML 5</h4>
+                                <p>Creative in building responsive and engaging web pages using HTML, with a focus on structure, clarity, and user experience.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">Semantic HTML</span>
+                                    <span class="skill-tag">Web Standards</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">March 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Infosys</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Intermediate</div>
+                            <div class="certificate-img-container">
+                                <img src="images/css.jpg" alt="CSS Certificate" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>CSS & Web Design</h4>
+                                <p>Skilled in crafting visually appealing and responsive designs using CSS, Flexbox, Grid, and animations for modern web applications.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">Flexbox</span>
+                                    <span class="skill-tag">Grid</span>
+                                    <span class="skill-tag">Animations</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Mar 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Infosys</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Professional Certificates -->
+                <div class="certificate-category" data-category="professional">
+                    <h3><i class="fas fa-briefcase"></i> Professional Development</h3>
+                    <div class="certificates-grid">
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Advanced</div>
+                            <div class="certificate-img-container">
+                                <img src="/images/mindluster (1).png" alt="AI Certificate" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Mindluster - Communication Skills</h4>
+                                <p>Completed Communication Skills course from Mindluster to improve my speaking ability.
+I learned how to express ideas clearly and interact confidently.
+It helped me build better vocabulary and listening habits.
+This certificate validates my personality and soft skills growth.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">Communication</span>
+                                    <span class="skill-tag">Speaking</span>
+                                    <span class="skill-tag">SoftSkills</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Aug 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Mindluster</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Intermediate</div>
+                            <div class="certificate-img-container">
+                                <img src="images/hp.jpg" alt="HP Certificate" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>HP AI PC Certification</h4>
+                                <p>Completed HP AI PC Certification—gained hands-on experience with on-device AI tools like HP AI Companion, myHP, and Poly Camera Pro.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">AI Tools</span>
+                                    <span class="skill-tag">PC Optimization</span>
+                                    <span class="skill-tag">Security</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Sep 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">HP Life</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Intermediate</div>
+                            <div class="certificate-img-container">
+                                <img src="/images/canva.png" alt="Soft Skills" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Canva Essentials</h4>
+                                <p>This certificate reflects my Canva designing skills and creativity. I learned to create professional banners and graphics. It improved my color and layout sense. I use these skills to design better UI for my projects.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">Leadership</span>
+                                    <span class="skill-tag">Communication</span>
+                                    <span class="skill-tag">Teamwork</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Feb 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">CANVA</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Intermediate</div>
+                            <div class="certificate-img-container">
+                                <img src="/images/international.png" alt="Project Management" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>international Conference</h4>
+                                <p>Participated in an International Conference at PSIT Kanpur. I got exposure to global tech trends. It enhanced my communication confidence. Shows my academic involvement beyond college studies.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">Agile</span>
+                                    <span class="skill-tag">Scrum</span>
+                                    <span class="skill-tag">Planning</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Jan 2025</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">PSIT Kanpur</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coding Competition Certificates -->
+                <div class="certificate-category" data-category="coding">
+                    <h3><i class="fas fa-trophy"></i> Coding Skills</h3>
+                    <div class="certificates-grid">
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Learn</div>
+                            <div class="certificate-img-container">
+                                <img src="/images/udemy web.png" alt="Hackathon" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Udemy CSS, Bootstrap & JavaScript</h4>
+                                <p>Completed a frontend course from Udemy on CSS, Bootstrap, and JavaScript. I gained knowledge of responsive websites and interactivity. Worked on hands-on projects using DOM and Bootstrap components. This validates my web development basics.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">Logic</span>
+                                    <span class="skill-tag">Events</span>
+                                    <span class="skill-tag">Styling</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Nov 2024</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Udemy</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Top</div>
+                            <div class="certificate-img-container">
+                                <img src="/images/accenture.jpg" alt="LeetCode" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>AI & Machine Learning</h4>
+                                <p>Exploring AI through hands-on coding in Python—building logic-driven models, translation tools, and intelligent systems with real-world impact.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">AI</span>
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">ML</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Oct 2024</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Accenture</span>
+                                    </div>
+                                </div>
+                                <a href="https://leetcode.com/contest/" target="_blank" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Learn</div>
+                            <div class="certificate-img-container">
+                                <img src="/images/python.png" alt="Google Code Jam" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>Python Certificate</h4>
+                                <p>Completed Python programming course and learned core concepts of the language.
+I gained understanding of logic building and problem solving in Python.
+Worked on basic programs and data structures.
+This certificate validates my Python learning.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">Exception</span>
+                                    <span class="skill-tag">Logic</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Apr 2024</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Infosys</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="certificate-card">
+                            <div class="certificate-badge">Finalist</div>
+                            <div class="certificate-img-container">
+                                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=2068&auto=format&fit=crop" alt="Hackathon" class="certificate-img">
+                            </div>
+                            <div class="certificate-info">
+                                <h4>HackTheCode Hackathon</h4>
+                                <p>Finalist in 48-hour hackathon. Developed a full-stack application for community service with real-time features.</p>
+                                <div class="certificate-skills">
+                                    <span class="skill-tag">Hackathon</span>
+                                    <span class="skill-tag">Full Stack</span>
+                                    <span class="skill-tag">Innovation</span>
+                                </div>
+                                <div class="certificate-meta">
+                                    <div class="meta-item">
+                                        <i class="far fa-calendar"></i>
+                                        <span class="certificate-date">Mar 2024</span>
+                                    </div>
+                                    <div class="meta-item">
+                                        <i class="fas fa-university"></i>
+                                        <span class="certificate-issuer">Tech University</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="certificate-link">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="certificates-stats">
+                <div class="stat-card">
+                    <div class="stat-number">12+</div>
+                    <div class="stat-label">Total Certificates</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Technical Skills</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Professional Skills</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Awards Won</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?q=80&w=2069&auto=format&fit=crop" alt="Netflix Clone" class="project-img">
+                    <div class="project-info">
+                        <h3>Netflix Clone</h3>
+                        <p>A responsive Netflix clone built with React & Firebase with user authentication and real-time database.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop" alt="E-commerce" class="project-img">
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce site with payment gateway, product filtering, and admin dashboard.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" alt="Portfolio" class="project-img">
+                    <div class="project-info">
+                        <h3>Interactive Portfolio</h3>
+                        <p>Responsive portfolio website with animations, project showcase, and contact form.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Links Section with HackerRank and GFG -->
+    <section id="links">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="links-container">
+                <div class="link-card">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/piyush12-ux" target="_blank">GitHub</a>
+                </div>
+                <div class="link-card">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/piyush-yadav-397865340/" target="_blank">LinkedIn</a>
+                </div>
+                <div class="link-card">
+                    <!-- HackerRank SVG Icon -->
+                    <svg viewBox="0 0 24 24" class="hackerrank-icon">
+                        <path d="M12 0c6.6 0 12 5.4 12 12s-5.4 12-12 12S0 18.6 0 12 5.4 0 12 0zm4.2 8.2c-1.5 0-2.8 1.3-2.8 2.8s1.3 2.8 2.8 2.8c1.5 0 2.8-1.3 2.8-2.8s-1.3-2.8-2.8-2.8zM12 8.2c-2.1 0-3.8 1.7-3.8 3.8 0 2.1 1.7 3.8 3.8 3.8 2.1 0 3.8-1.7 3.8-3.8 0-2.1-1.7-3.8-3.8-3.8zm-4.2 0C5.3 8.2 4 9.5 4 11s1.3 2.8 2.8 2.8c1.5 0 2.8-1.3 2.8-2.8S9.7 8.2 8.2 8.2z"/>
+                    </svg>
+                    <a href="https://www.hackerrank.com/profile/24116002355_piyu" target="_blank">HackerRank</a>
+                </div>
+                <div class="link-card">
+                    <!-- GFG SVG Icon -->
+                    <svg viewBox="0 0 24 24" class="gfg-icon">
+                        <path d="M7 2C5.9 2 5 2.9 5 4s.9 2 2 2 2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-5 0C9.9 2 9 2.9 9 4s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 16c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm5 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-10 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
+                    </svg>
+                    <a href="https://www.geeksforgeeks.org/profile/py0774o9o?tab=activity" target="_blank">GeeksforGeeks</a>
+                </div>
+                <div class="link-card">
+                    <!-- LeetCode SVG Icon -->
+                    <svg viewBox="0 0 24 24" class="leetcode-icon">
+                        <path d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.535-.536.553-1.387.039-1.901l-2.609-2.636a5.055 5.055 0 0 0-2.445-1.337l2.467-2.503c.516-.514.498-1.366-.037-1.901-.535-.535-1.387-.552-1.902-.038l-10.1 10.101c-.981.982-1.494 2.337-1.494 3.835 0 1.498.513 2.895 1.494 3.875l4.347 4.361c.981.979 2.337 1.452 3.834 1.452s2.853-.512 3.835-1.494l2.609-2.637c.514-.514.496-1.365-.039-1.9s-1.386-.553-1.899-.039zM20.811 13.01H10.666c-.702 0-1.27.604-1.27 1.346s.568 1.346 1.27 1.346h10.145c.701 0 1.27-.604 1.27-1.346s-.569-1.346-1.27-1.346z"/>
+                    </svg>
+                    <a href="https://leetcode.com/u/your-username/" target="_blank">LeetCode</a>
+                </div>
+                <div class="link-card">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://www.instagram.com/piyushyadav1912/" target="_blank">Instagram</a>
+                </div>
+                <div class="link-card">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:py077865@gmail.com">Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
